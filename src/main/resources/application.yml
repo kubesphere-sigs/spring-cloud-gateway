@@ -1,0 +1,18 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: ${SPRING_CLOUD_APPLICATION_NAME:gateway}
+  cloud:
+    nacos:
+      username: ${USERNAME}
+      password: ${PASSWORD}
+      discovery:
+        server-addr: ${SPRING_CLOUD_NACOS_DISCOVERY_SERVER_ADDR}
+        namespace: ${SPRING_CLOUD_NACOS_DISCOVERY_NAMESPACE}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

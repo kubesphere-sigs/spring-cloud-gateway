@@ -44,9 +44,9 @@ bootJar {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    implementation "org.springframework.cloud:spring-cloud-starter:3.0.4"
     implementation "org.springframework.boot:spring-boot-starter-actuator:2.5.5"
-    implementation 'org.springframework.cloud:spring-cloud-starter-gateway:3.0.4'
+    implementation 'org.springframework.cloud:spring-cloud-starter-gateway:3.1.1'
+    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.1'
 //    implementation 'io.micrometer:micrometer-registry-prometheus'
     implementation 'io.fabric8:kubernetes-client:5.12.1'
     implementation 'io.fabric8:kubernetes-model:5.12.1'

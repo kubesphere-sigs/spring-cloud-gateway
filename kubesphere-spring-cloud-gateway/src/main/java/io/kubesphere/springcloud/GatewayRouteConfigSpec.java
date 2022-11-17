@@ -3,8 +3,9 @@ package io.kubesphere.springcloud;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import io.fabric8.kubernetes.api.model.KubernetesResource;
-import java.util.List;
 import org.springframework.cloud.gateway.route.RouteDefinition;
+
+import java.util.List;
 
 /**
  * Description: User: hongming Date: 2022-02-21 Time: 15:53

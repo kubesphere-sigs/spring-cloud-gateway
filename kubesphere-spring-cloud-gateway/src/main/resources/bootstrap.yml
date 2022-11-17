@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: xxx
+        namespace: xxx
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

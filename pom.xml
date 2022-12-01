@@ -6,7 +6,7 @@
 
     <groupId>io.kubesphere</groupId>
     <artifactId>spring-cloud-gateway</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <modules>
         <module>kubesphere-spring-cloud-gateway</module>
@@ -15,13 +15,12 @@
     <packaging>pom</packaging>
 
     <properties>
-        <kubesphere-gateway.version>0.0.1-SNAPSHOT</kubesphere-gateway.version>
+        <revision>0.1.0</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-boot.version>2.6.3</spring-boot.version>
-        <spring-boot-maven-plugin.version>2.2.7.RELEASE</spring-boot-maven-plugin.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
         <alibaba-cloud.version>2021.1</alibaba-cloud.version>
         <fabric8.version>5.12.1</fabric8.version>
@@ -72,7 +71,7 @@
             <dependency>
                 <groupId>io.kubesphere</groupId>
                 <artifactId>kubesphere-spring-cloud-gateway</artifactId>
-                <version>${kubesphere-gateway.version}</version>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
